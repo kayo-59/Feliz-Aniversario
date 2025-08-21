@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'under';
+    src: url("/font/MonsterFriendBack.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'under2';
+    src: url("/font/MonsterFriendFore.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'texto';
+    src: url("/font/PixelOperatorSC-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
