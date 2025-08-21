@@ -1,44 +1,18 @@
-.caixa{
-    width: 600px;
-    height: 100px;
-    margin: auto;
-    background-color: rgb(0, 0, 0);
-    border-style: solid;
-    border-width: 10px;
-    border-color: white;
-    display: flex;
-    justify-content: center;   
-    padding: 30px;
-}
-button{
-    width: 124px;
-    height: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-color: orange;
-    background-color: black;
+@font-face {
     font-family: 'under';
-    font-size: 25px;
-    cursor: pointer;
-    transition: transform 300ms ease-in-out;
+    src: url(../font/MonsterFriendBack.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
-
-button:hover{
-    transform: scale(1.1);
-    border-color: yellow;
-    text-decoration: none;
-    color: yellow;
+@font-face {
+    font-family: 'under2';
+    src: url(../font/MonsterFriendFore.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
-
-a{
-    text-decoration: none;
-    color: orange;
+@font-face {
+    font-family: 'texto';
+    src: url(../font/PixelOperatorSC-Bold.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
-
-a:hover{
-    color: yellow;
-}
-
